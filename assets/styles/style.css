@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+   display: inline;
+}
+
+.jumbotron {
+  font-family: 'Teko', sans-serif;
+   font-size: 30%;
+   padding: 60px 20px 20px 20px;
+   background-color: #f7ee45;
+   text-align: center;
+   color: white ;
+}
+
+header .jumbotron h1{
+  line-height: 2px;
+}
+
+header .jumbotron h1 a{
+  color :  #d62424;
+  text-decoration: none;
+  font-size: 80px;
+  padding-bottom: 0;
+}
+
+header .jumbotron p{
+   color : #eb7e09;
+  line-height: 1;
+  font-size: 30px;
+  }
+
+nav li a {
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav li a:hover{
+  color: #f7ee45;
+}
+
+nav {
+ background-color: #d62424;
+ padding: 5px;
+ position: sticky;
+ top: 0;
+}
+
+main{
+  padding: 20px;
+}
+
+.featured-image {
+  width: 100%;
+   max-height: 500px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+#profile{
+  width: 100%;
+  overflow: auto;
+  margin: 0px 0px 100px 0px;
+}
+
+#profile h2{
+  text-align: center;
+}
+
+#profile p{
+  font-size: 32px;
+  margin: 0px 100px 0px 0px;
+}
+
+#profile img{
+  float: left;
+  width: 300px;
+  padding-top: 10px;
+  margin: 0px 20px 0px 100px;
+}
+
+#product{
+  overflow: auto;
+  background-color: #d62424;
+  height: auto;
+  padding: 20px 20px 50px 20px;
+  margin:0px;
+}
+
+#product h2{
+  color : black;
+  text-align: center;
+}
+
+#product .item{
+  float: left;
+  width:23%;
+  margin-right: 20px;
+  background-color: #d62424;
+}
+
+#product .item img{
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.item h3{
+  color:black;
+}
+
+#product .card{
+  background-color: white;
+}
+
+
+#content {
+   width: 100%;
+   font-size: 24px;
+}
+
+#content h2{
+  text-align: center;
+}
+
+#founder .profile img{
+    border-radius: 50%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#founder {
+  background-color: #f7ee45;
+  padding: auto;
+  padding-top:50px;
+  height:700px;
+  font-size: 16px;
+}
+
+#founder p{
+  max-width: 500px;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Teko', sans-serif;
+  font-size: 48px;
+   color: #d62424;
+}
+
+h3 {
+  font-family: 'Teko', sans-serif;
+   color:#d62424;
+}
+
+.profile {
+   text-align: center;
+}
+
+
+
+footer {
+   font-family: 'Teko', sans-serif;
+   padding: 20px;
+   color: white;
+   background-color: #d62424;
+   text-align: center;
+   font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+
+  #profile p {
+    font-size: 24px;
+  }
+
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+
+   header .jumbotron h1 a{
+     font-size: 36px;
+   }
+
+   header .jumbotron p{
+     font-size: 16px;
+     }
+
+     nav li a {
+       font-size: 18px;
+     }
+
+
+    h2{
+      font-size: 24px;
+    }
+
+    #profile img{
+      float: none;
+      width: 100%;
+      margin: 0px;
+      padding: 20px;
+    }
+
+    #profile p{
+      padding: 20px;
+      margin: 0px;
+    }
+
+    #product{
+        padding: 20px;
+    }
+
+    #product .item{
+      float: none;
+      margin:0px;
+      width:100%;
+      margin-bottom: 20px;
+    }
+
+    #founder{
+      height: 600px;
+      padding: 20px;
+    }
+
+    #founder .profile img{
+        border-radius: 50%;
+        max-height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
